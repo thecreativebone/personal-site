@@ -94,7 +94,7 @@ a:hover,a:focus {
 ::-moz-selection  {
     color: #fff;
     text-shadow:none;
-    background:#0b0b0b;
+    background:#fff;
 }
 
 ::selection {
@@ -275,7 +275,7 @@ blockquote:after {
     left: 0;
     right: 0;
     z-index: 9999;
-    margin:30px 0;
+    margin:0 0;
     display: block;
 }
 
@@ -284,7 +284,7 @@ blockquote:after {
     -webkit-backface-visibility: hidden; 
     -webkit-transform: translateZ(0);
     top:0;
-    background:#0b0b0b;
+    background:#fff;
     right:0;
     margin-top:0;
     margin:0 !important;
@@ -306,7 +306,7 @@ blockquote:after {
 }
 
 .navbar {
-    background: transparent;
+    background-color: rgba(255, 255, 255, 0.75);
     margin:0;
     border:none;
 }
