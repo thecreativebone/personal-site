@@ -3837,6 +3837,7 @@ figure.effect-milo:hover .image {
   padding: 13px 40px;
   font-size: 12px;
   line-height: 1.33;
+  text-transform: uppercase;
 }
 
 .btn-primary {
