@@ -38,6 +38,15 @@ body {
     outline: none;
 }
 
+body-small { 
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.4;
+    outline: none;
+}
+
 h1,
 h2,
 h3,
@@ -105,6 +114,15 @@ a:hover,a:focus {
 
 .lead {
     font-family: "Lato",sans-serif;
+}
+
+.lead-small { 
+    color: #fff;
+    font-family: "Lato",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+    outline: none;
 }
 
 .alignleft {
@@ -638,7 +656,7 @@ blockquote:after {
 }
 
 .footer .section-title h3 {
-    padding-bottom: 17px;
+    padding-bottom: 0px;
 }
 
 .contact-widget {
@@ -2005,7 +2023,7 @@ blockquote:after {
 
 .section-g,
 .section-w {
-    padding:150px 0;
+    padding:50px 0;
     background: #fff;
     position: relative;
     display: block;
@@ -2030,7 +2048,7 @@ blockquote:after {
 }
 
 .section-g {
-    background: #fafafa;
+    background: #fff;
 }
 
 .section-d {
@@ -3702,6 +3720,7 @@ figure.effect-milo:hover .image {
 
 #testimonial .owl-item {
   width:100%;
+  padding: 0 50px;
   text-align: center;
 }
 
@@ -3720,15 +3739,17 @@ figure.effect-milo:hover .image {
 
 #testimonial small {
   font-size:13px;
+  color:#fff;
   font-style: italic;
 }
 
 #testimonial p {
   font-weight: 300;
   margin-top:15px;
+  padding: 0 30px;
   color:#fff;
-  line-height: 1.9;
-  font-size:24px;
+  line-height: 1.5;
+  font-size:16px;
 }
 
 .btn-group .tooltip-inner,
