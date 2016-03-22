@@ -302,7 +302,7 @@ blockquote:after {
     -webkit-backface-visibility: hidden; 
     -webkit-transform: translateZ(0);
     top:0;
-    background:#fff;
+    background: #fff;
     right:0;
     margin-top:0;
     margin:0 !important;
@@ -583,7 +583,7 @@ blockquote:after {
 }
 
 #multimenu.menu-wrapper.affix  {
-    background: #fff !important;
+    background: #fff;
     border-bottom:1px solid #f9f9f9;
 }
 
