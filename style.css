@@ -3720,7 +3720,7 @@ figure.effect-milo:hover .image {
 
 #testimonial .owl-item {
   width:100%;
-  padding: 0 50px;
+  padding: 0 30px;
   text-align: center;
 }
 
@@ -4064,11 +4064,14 @@ div.thumbnails .magnifier .buttons {
     .parallax-text h4,
     .parallax-text h2,
     .parallax-text h1,
-    .general-text h2,
-    .section-title h3 .font-backend {
+    .general-text h2 {
     font-size:20px;
     line-height:20px;
     height:20px;
+    }
+
+    .section-title h3 .font-backend {
+        display: none;
     }
     
     .parallax-text h4,

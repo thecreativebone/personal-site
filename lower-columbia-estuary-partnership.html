@@ -125,13 +125,6 @@
                         <div class="post-media">
                             <a href="images/lcep-4.jpg" data-gal="prettyPhoto"><img src="images/lcep-4.jpg" alt="" class="img-responsive"></a>
                         </div>                        
-                        <nav>
-                            <ul class="pager">
-                                <li class="pull-left"><a href="#" title="Previous project"><i class="fa fa-angle-left"></i></a></li>
-                                <li class="pull-right"><a href="#" title="Next project"><i class="fa fa-angle-right"></i></a></li>
-                            </ul>
-                        </nav>
-
                     </div><!-- end col -->
 
                     <div id="sidebar" class="col-md-4 col-sm-4 col-xs-12 pull-left">
@@ -145,99 +138,49 @@
                                 <ul>
                                     <li><b>Date: </b>2015</li>
                                     <li><b>Skills: </b>HTML/CSS, UX/UI design</li>
-                                    <li><a class="btn btn-primary btn-lg btn-block" href="http://www.eclipsemediasolutions.com/" title="Lange International" target="_blank">Visit Site</a></li>                                    
+                                    <li><a class="btn btn-primary btn-lg btn-block" href="http://www.estuarypartnership.org/" title="Estuary Partnership" target="_blank">Visit Site</a></li>                                    
                                 </ul>
                             </div><!-- end personal -->
-                        </div><!-- end widget -->
+                        </div><!-- end widget --> 
+                            <nav>
+                            <ul class="pager">
+                                <li class="pull-left"><a href="lange-international.html" title="Previous project"><i class="fa fa-angle-left"></i></a></li>
+                                <li class="pull-right"><a href="praxis.html" title="Next project"><i class="fa fa-angle-right"></i></a></li>
+                            </ul>
+                        </nav>                        
                     </div><!-- end col -->
                 </div><!-- end row -->
             </div><!-- end container -->
         </section><!-- end section -->
-
-        <section id="clients" class="section-d clearfix">
+        <section id="contact" class="section-d clearfix">
             <div class="container">
                 <div class="section-title text-center">
-                    <h3><span class="font-backend">T</span> Thanks for checking out my work!</h3>
+                    <h3><span class="font-backend">S</span>Say Hello</h3>
+                    <p class="lead">If you like what you see, reach out and lets connect!</p>
                 </div><!-- end sectiontitle -->
-            </div>
-        </section><!-- end section -->
 
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="widget">
-                            <div class="about-widget">
-                                <div class="section-title">
-                                    <h3>Find me</h3>
-                                </div><!-- title -->
-                                <div class="social-icons">
-                                    <span><a class="border-radius" data-rel="tooltip" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" data-title="LinkedIn" href="https://www.linkedin.com/in/ryanbone" target="_blank"><i class="fa fa-linkedin"></i></a></span>
-                                    <span><a class="border-radius" data-rel="tooltip" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" data-title="Behance" href="https://www.behance.net/thecreativebone" target="_blank"><i class="fa fa-behance"></i></a></span>
-                                    <span><a class="border-radius" data-rel="tooltip" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" data-title="Pinterest" href="https://www.pinterest.com/thecreativebone/" target="_blank"><i class="fa fa-pinterest"></i></a></span>
-                                    <span><a class="border-radius" data-rel="tooltip" data-toggle="tooltip" data-trigger="hover" data-placement="bottom" data-title="Tumblr" href="http://blog.thecreativebone.com/" target="_blank"><i class="fa fa-tumblr"></i></a></span>
-                                </div><!-- end social icons -->
-                            </div><!-- end about-widget -->
+                <div class="section-wrapper row">
+                    <div class="contact_form col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1">
+                    <div id="message"></div>
+                        <form id="contactform" action="contact.php" name="contactform" method="post">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Name"> 
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                <input type="text" name="email" id="email" class="form-control" placeholder="Email"> 
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                <textarea class="form-control" name="comments" id="comments" rows="6" placeholder="Message Below"></textarea>
+                            </div>
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                <button type="submit" value="SEND" id="submit" class="btn btn-default btn-lg">SEND MESSAGE</button>
+                            </div>
+                        </form> 
+                    </div> <!-- end contact_widget -->
+                </div><!-- end section-wrapper -->
 
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="widget">
-                            <div class="section-title">
-                                <h3>Useful Links</h3>
-                            </div><!-- title -->
-                            <ul>
-                                <li><a data-scroll href="index.html">Home</a></li>
-                                <li><a data-scroll href="index.html#about">About</a></li>
-                                <li><a data-scroll href="index.html#works">Work</a></li>
-                                <li><a data-scroll href="index.html#clients">Clients</a></li>
-                                <li><a data-scroll href="#contact">Contact</a></li>
-                            </ul>
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-
-                    <div class="col-md-4 col-sm-4 col-xs-12">
-                        <div class="widget">
-                            <div class="section-title">
-                                <h3>Contact Me</h3>
-                            </div><!-- title -->
-
-                            <div class="contact-widget">
-                                <form name="contactform" method="post" action="http://example.com/wp-content/themes/fullby-child/mail/mailer.php" class="form-horizontal" role="form">
-                                    <div class="form-group">
-                                        <label for="inputName" class="col-lg-2 control-label">Name</label>
-                                        <div class="col-lg-10">
-                                            <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputEmail1" class="col-lg-2 control-label">Email</label>
-                                        <div class="col-lg-10">
-                                            <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email">
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="inputPassword1" class="col-lg-2 control-label">Message</label>
-                                        <div class="col-lg-10">
-                                            <textarea class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-lg-offset-2 col-lg-10">
-                                            <button type="submit" class="btn btn-default">
-                                                Send Message
-                                            </button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div><!-- end contact-widget -->
-                        </div><!-- end widget -->
-                    </div><!-- end col -->
-                </div><!-- end row -->
             </div><!-- end container -->
-        </footer><!-- end footer -->
-        
+        </section><!-- end section -->       
         <div class="copyrights">
             <div class="container">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
