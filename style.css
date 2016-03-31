@@ -87,7 +87,8 @@ h6 {
 }
 
 a {
-  color:#0b0b0b;
+  color:#9CCB3B;
+  font-weight: normal;
   outline: none;
     -webkit-transition: all 0.3s ease-in-out;
   -moz-transition: all 0.3s ease-in-out;
